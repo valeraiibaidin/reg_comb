@@ -5,7 +5,7 @@ Program reg_comb run OLS regression for all combination variables
 
 regr_comb  depvar [treatment variables] [o: obligatory variables for all combination] [if statements], [reg options]
 
-result writes in new variables: varnam_b = coeficient, varnam_t - t-stat
+result writes in new variables: varnam_b = coeficient, varnam_t - t-stat, r2a - Adj R-squared 
 
 Exmpales:
 
