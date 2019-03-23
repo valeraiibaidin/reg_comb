@@ -3,7 +3,7 @@ Program reg_comb run OLS regression for all combination variables
 
 regr_comb  depvar [treatment variables] [o: obligatory variables for all combination] [if statements], [reg options]
 
-result write in new variables: varnam_b = coeficient, varnam_t - t  
+result writes in new variables: varnam_b = coeficient, varnam_t - t  
 */
 
 	capture program drop reg_comb
