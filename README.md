@@ -10,6 +10,7 @@ result writes in new variables: varnam_b = coeficient, varnam_t - t-stat, r2a - 
 Exmpales:
 
 reg_comb y x1 x2 x3
+
 reg_comb y x1 x2 x3 o: x4 x5 if year>2015, rob
 
 
